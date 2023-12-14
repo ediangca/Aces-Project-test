@@ -1,6 +1,7 @@
 package com.aces.project.test.myapplication
 
 import android.content.Intent
+import android.graphics.drawable.AnimatedVectorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -17,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        var avd: AnimatedVectorDrawable = binding.logoAnim.drawable as AnimatedVectorDrawable
+        avd.start()
+
         // This is used to hide the status bar and make
         // the splash screen as a full screen activity.
         window.setFlags(
@@ -30,8 +34,8 @@ class MainActivity : AppCompatActivity() {
 
         // Handler().postDelayed({
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            val loginIntent = Intent(this, LoginActivity::class.java)
+            startActivity(loginIntent)
             finish()
         }, 3000) // 3000 is the delayed time in milliseconds.
     }
