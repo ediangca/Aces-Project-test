@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "509551205533",
+    "firebase_url": "https://aces-authentication-62cc8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aces-authentication-62cc8",
+    "storage_bucket": "aces-authentication-62cc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509551205533:android:ab5aa93286db2a06ad8874",
+        "android_client_info": {
+          "package_name": "com.aces.project.test.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509551205533-701u548kuvnoh74h09mr6obekte7datq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aces.project.test.myapplication",
+            "certificate_hash": "013ef3f8d4fef78c267a317656ad341d548adf06"
+          }
+        },
+        {
+          "client_id": "509551205533-b7oulg8i1v8lca2pcf2s5dvdivanqsp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_WXZyvI6jMiwEWLQ8ou_4Qg6XJ_-aFHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509551205533-b7oulg8i1v8lca2pcf2s5dvdivanqsp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
